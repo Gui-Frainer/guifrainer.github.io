@@ -1,31 +1,11 @@
-Future Imperfect by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Hi there,
+
+This is my personal website I'm using to explain my work and some part of my life in a different perspective: my perspective. Not that it is great, but it is the way I think is good. I always wanted to put everything in one place and maybe that's my chance.
+
+Feel free to use this template for yourelf, I got this one from html5up.net (@ajlkn - free for personal and commercial use under the CCA 3.0 license, html5up.net/license).
+
+I hope you like it!
+
+Gui
 
 
-It's been a long time coming, but I've finally gotten around to creating a brand new
-blog-style template (and the first since Striped, which came out waaaaay back in 2013).
-Anyway, Future Imperfect features a clean, expansive layout, a toggleable search box,
-and -- because pretty much all modern browsers can use it now -- a whole lot of flexbox
-action. Enjoy it :)
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
