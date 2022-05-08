@@ -268,7 +268,20 @@
 								</ul>
 								
 								<h2 id="ML">Machine Learning</h2>
-								<p>Python</p>
+								<p>This is the thing that is keeping my life busy at the moment. But I mean: busy. To be honest, one of the most insane creations of the human being I have ever seen. Sometimes I think biologists would love to be a computer engineer, and vice-versa. You can try to do both, but it is definitely a tough way. Anyway, this project arose from the challenge of monitoring the most endangered dolphin from South Africa, the Indian-Ocean humpback dolphin(<i>Sousa plumbea</i>). There are few applications available to find dolphin sounds in long-term recordings and classify those at species level, which is essential for population size estimation using individually distinctive signature whistles as source for spatial mark-recapture models (<a href="https://academic.oup.com/jmammal/article/101/5/1289/5893454">Longden <i>et al</i>. 2020</a>. However, the low accuracy for tonal calls (i.e., whistles) identification and species classification preclude further studies on target species. Imagine that it is commonly found Indian Ocean bottlenose dolphins (<i>Tursiops aduncus</i>), common dolphins (<i>Delphinus delphis</i>), and killer whales (<i>Orcinus orca</i>). And that’s it: we aim to build an open-source application that will help the long-term acoustic monitoring of whales and dolphins by identifying and classifying their sounds at species level using convolutional neural networks (CNNs) for audio (spectrograms) recognition. The good news is that the code is ready and I started running it at <a hred="https://azure.microsoft.com/en-us/features/azure-portal/">Microsoft Azure</a> through <a href="https://www.microsoft.com/en-us/ai/ai-for-earth">AI for Earth</a> grants. For now I could share partial results and what the output looks like: for the species classification, the best result gave me 97% accuracy.</p>
+								<fieldset>  
+									<legend>Output of a random model for the species classification, built with a small amount of data.</legend>
+									<span class="image featured"><img src="images/cfsmatrix.JPG" alt="" /></span>
+								</fieldset>	
+								<p>I have also adventured myself in the world of machine learning and, by advice of my collaborator Dr. Emmanuel Dufourq, started digging into Variational Autoencoders (VAE) to generate artificial dolphin sounds. This approach will not only be useful for training the CNNs models, but also to differentiate them as it seems it would be very useful to categorize different call types for a single species (or multi-species, depending on the question, I don’t know). The thing is that you can literally see how the machine ‘learned’ and distinguished distinct types of killer whales (<i>Orcinus orca</i>) sounds. This is the first time this approach is done for cetaceans, as far as I am informed.</p>	
+								<fieldset>  
+									<legend>Output of the latent space created with Variational Autoencoder, which is based on the mean and variance of the training library. Each image represents 50 epochs. One epoch means training your model with all your training libraries one time.</legend>
+									<span class="image featured"><img src="images/10por10_orca20220129.gif" alt="" /></span>
+								</fieldset>	
+									
+									
+									
+								
 									
 								<ul class="actions">
 									<li><a href="#top" class="button">Top</a></li>
